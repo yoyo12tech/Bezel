@@ -257,23 +257,24 @@ header.scrolled .icons a svg {
 .heading{
     position: relative;
     h2{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         font-weight: 500;
         letter-spacing: -2px;
         position: relative;
         z-index: 2;
     }
     h2::before{
-        position: absolute;left: 48%;top: -79%;
+        position: absolute;left: 50%;top: -70%;
+        transform: translateX(-50%);
         margin:auto;
         content:"C";
         color: rgba(210, 210, 210, 0.329);
         z-index: -10;
-        font-size: 5rem;
+        font-size: 4rem;
     }
     h4{
         font-weight: 400;
-        font-size: 1.325rem;
+        font-size: 1rem;
         letter-spacing: -0.5px;
         color: #787878;
     }
@@ -503,7 +504,7 @@ header.scrolled .icons a svg {
 
 .contact{
     h2::before{
-        position: absolute;left: 0%;top: -79%;
+        position: absolute;left: 5%;top: -70%;
         content:"G";
     }
     .contact{
